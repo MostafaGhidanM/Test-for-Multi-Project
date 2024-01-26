@@ -12,6 +12,9 @@ use App\Http\Controllers\BannerController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/test', function () {
+    return view('welcome');
+});
 
 Route::get('/user', function () {
     return view('users.index');
