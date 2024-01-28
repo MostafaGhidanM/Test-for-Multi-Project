@@ -23,4 +23,4 @@ Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
 
-Route::resource("products", BannerController::class);
+Route::resource("banners", BannerController::class);
